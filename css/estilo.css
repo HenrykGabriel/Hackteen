@@ -17,6 +17,7 @@
    color: white;
    text-decoration: none;
    padding: 0 10px;
+   font-size: 110%;
 }
 .menu-link ul li a:hover {
     color: #cbcaca;
@@ -25,10 +26,67 @@
     width: 70px;
     height: 30px;
     background-color: #212020;
+    font-size: 120%;
 }
 .logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
     margin-left: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+    height: 140px;
+    width: 220px;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+.toggle-button {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .toggle-button {
+    display: block;
+  }
+  .menu-link {
+    display: none;
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    background: #181818;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+  }
+  .menu-link ul {
+    flex-direction: column;
+    text-align: center;
+    background: transparent;
+    gap: 0;
+    padding: 10px 0;
+  }
+  .menu-link ul li {
+    margin: 10px 0;
+  }
+  .menu-link.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  .toggle-button {
+    z-index: 101;
+  }
 }
