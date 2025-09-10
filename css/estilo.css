@@ -1,11 +1,24 @@
 .menu {
-    background-color: #101010;
+    background-color: #002952;
     height: 80px;
     display: flex;
     position: fixed;
     top: 0;
     width: 100%;
     align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9F9F9;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 140px; 
+}
+p {
+    font-size: 25px;
 }
 .menu-link ul {
     display: flex;
@@ -14,7 +27,7 @@
 }
 .menu-link ul li a {
    line-height: center;
-   color: white;
+   color: rgb(239, 239, 239);
    text-decoration: none;
    padding: 0 10px;
    font-size: 110%;
@@ -25,7 +38,7 @@
     transition: 0.6s;
     width: 70px;
     height: 30px;
-    background-color: #212020;
+    background-color: #00264d;
     font-size: 120%;
 }
 .logo {
@@ -46,13 +59,25 @@ img {
     margin-top: 8px;
 }
 .toggle-button {
-  display: none;
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #245689;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 @media (max-width: 768px) {
   .toggle-button {
     display: block;
@@ -63,7 +88,7 @@ img {
     position: absolute;
     top: 80px;
     left: 5%;
-    background: #181818;
+    background: #002952;
     border-radius: 8px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -88,5 +113,9 @@ img {
   }
   .toggle-button {
     z-index: 101;
+  }
+  .container {
+    width: 90%;
+    padding: 15px;
   }
 }
