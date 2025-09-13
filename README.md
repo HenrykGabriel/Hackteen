@@ -1,4 +1,4 @@
-## **AcessCode** 
+## **Open Web** 
 
 ### 💻 Projeto desenvolvido na **ETEC Professor Elias Miguel Junior**  
 
@@ -11,12 +11,12 @@
 
 ## 🎯 Objetivo do Projeto  
 
-O AcessCode é um projeto criado para ajudar desenvolvedores a construir sites mais acessíveis e inclusivos, seguindo boas práticas de design e desenvolvimento.
+O OpenWeb é um projeto criado para ajudar desenvolvedores a construir sites mais acessíveis e inclusivos, seguindo boas práticas de design e desenvolvimento.
 
 Muitas vezes, quem cria um site não sabe que pessoas com deficiência ou dificuldades de navegação enfrentam barreiras simples, como falta de contraste nas cores, ausência de legendas em vídeos ou menus difíceis de usar sem mouse.
 O OpenWeb surge como uma ferramenta educativa que mostra como tornar a web acessível a todos.
 
-✨ O que o AcessCode oferece
+✨ O que o OpenWeb oferece
 
 🎨 Cores e contrastes acessíveis
 Orientações sobre paletas de cores que garantem boa leitura para pessoas com daltonismo ou baixa visão.
@@ -35,7 +35,7 @@ Uma lista simples que o desenvolvedor pode seguir para verificar se seu site est
 
 🎯 Objetivo do projeto
 
-O AcessCode busca quebrar as barreiras digitais, ajudando desenvolvedores a:
+O OpenWeb busca quebrar as barreiras digitais, ajudando desenvolvedores a:
 
 Construir sites acessíveis para todos;
 
@@ -65,7 +65,7 @@ Para utilizar o projeto, siga os passos:
    - Localize o arquivo **`index.html`** na pasta do projeto.  
    - Clique **duas vezes** sobre ele para abrir no navegador de sua preferência.  
 
-✅ Agora você já pode explorar o **AcessCode** e começar sua jornada como desenvolvedor com mais clareza e segurança.  
+✅ Agora você já pode explorar o **Open Web** e começar sua jornada como desenvolvedor com mais clareza e segurança.  
 
 ---
 
@@ -84,6 +84,6 @@ Formando alunos capacitados, inovadores e preparados para enfrentar os desafios 
 
 ## ✨ Mensagem Final  
 
-> “Mais que boas práticas, acessibilidade é respeito. E começa no código."  
+> “Porque a web só é realmente aberta quando é acessível para todos."  
 
 ---
