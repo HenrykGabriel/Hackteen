@@ -1,42 +1,57 @@
-# 🌐 Open Web  
+## **Open Web** 
 
 ### 💻 Projeto desenvolvido na **ETEC Professor Elias Miguel Junior**  
 
----
 
 ## 👥 Colaboradores
 - **Davi Camargo Campos**  
 - **David Fernando Ferreira Moura**  
 - **Henryk Gabriel Lara Fabiano**
 
----
 
 ## 🎯 Objetivo do Projeto  
 
-O **Open Web** foi desenvolvido com o propósito de **auxiliar desenvolvedores iniciantes a trilhar o caminho do mundo da programação e do desenvolvimento web** de forma clara, organizada e prática.  
+O OpenWeb é um projeto criado para ajudar desenvolvedores a construir sites mais acessíveis e inclusivos, seguindo boas práticas de design e desenvolvimento.
 
-Entrar na área de desenvolvimento pode ser desafiador, principalmente para quem ainda não tem experiência ou não sabe **por onde começar**. Com uma infinidade de linguagens de programação, frameworks, bibliotecas e áreas de atuação, muitos iniciantes se sentem perdidos e sem direção.  
+Muitas vezes, quem cria um site não sabe que pessoas com deficiência ou dificuldades de navegação enfrentam barreiras simples, como falta de contraste nas cores, ausência de legendas em vídeos ou menus difíceis de usar sem mouse.
+O OpenWeb surge como uma ferramenta educativa que mostra como tornar a web acessível a todos.
 
-O Open Web surge como uma **ferramenta educativa e prática**, com o objetivo de guiar esses futuros desenvolvedores em diversos aspectos:  
+✨ O que o OpenWeb oferece
 
-- 🌟 **Escolha da linguagem de programação**  
-  O projeto oferece informações detalhadas sobre linguagens populares, como **JavaScript, Python, Java, C#**, entre outras, explicando suas características, vantagens, e contextos ideais de utilização.  
+🎨 Cores e contrastes acessíveis
+Orientações sobre paletas de cores que garantem boa leitura para pessoas com daltonismo ou baixa visão.
 
-- 🛠️ **Áreas de atuação na programação**  
-  Desde **desenvolvimento web, mobile, back-end, front-end, DevOps e inteligência artificial**, o Open Web ajuda o usuário a compreender qual área combina melhor com seu perfil, interesses e objetivos de carreira.  
+🔊 Recursos para navegação assistida
+Dicas de uso de textos alternativos (alt), aria-labels e compatibilidade com leitores de tela.
 
-- 📚 **Como começar do zero**  
-  O projeto apresenta **passo a passo de estudos, recursos de aprendizado, cursos, exercícios práticos e ferramentas essenciais**, auxiliando quem está dando os primeiros passos no desenvolvimento.  
+🖱️ Acessibilidade na navegação
+Boas práticas para criar sites que funcionam bem sem mouse, apenas com teclado ou comandos de voz.
 
-- ⏱️ **Organização do aprendizado**  
-  Mostra como **estruturar os estudos**, criar rotinas eficientes e acompanhar a evolução, para que cada estudante possa se desenvolver de forma consistente e planejada.  
+📹 Inclusão em multimídia
+Sugestões para adicionar legendas, transcrições e descrições em vídeos e áudios.
 
-- 💡 **Dicas de mercado e boas práticas**  
-  Além de ensinar conceitos técnicos, o Open Web fornece **orientações sobre boas práticas de codificação, colaboração em projetos, Git/GitHub e preparação para o mercado de trabalho**, preparando o iniciante para situações reais do desenvolvimento.  
+📑 Checklist prático de acessibilidade
+Uma lista simples que o desenvolvedor pode seguir para verificar se seu site está de acordo com princípios de acessibilidade.
 
-Em resumo, o **Open Web é mais que um guia**, é **uma ponte que conecta iniciantes à realidade do desenvolvimento**, ajudando-os a tomar decisões informadas, economizar tempo e acelerar seu crescimento na área de tecnologia.  
+🎯 Objetivo do projeto
 
----
+O OpenWeb busca quebrar as barreiras digitais, ajudando desenvolvedores a:
+
+Construir sites acessíveis para todos;
+
+Atender às diretrizes internacionais de acessibilidade (WCAG);
+
+Criar experiências digitais mais justas e inclusivas;
+
+Conscientizar sobre a importância de pensar em todos os tipos de usuários.
+
+🚀 Tecnologias utilizadas
+
+HTML
+
+CSS
+
+JavaScript
 
 ## ⚙️ Instruções de Setup  
 
@@ -69,7 +84,6 @@ Formando alunos capacitados, inovadores e preparados para enfrentar os desafios 
 
 ## ✨ Mensagem Final  
 
-> “Começar na programação pode parecer desafiador, mas com as informações certas, orientação e prática, qualquer iniciante pode se tornar um desenvolvedor confiante.  
-> O **Open Web** é o seu guia para transformar curiosidade em conhecimento e habilidades em resultados.”  
+> “Porque a web só é realmente aberta quando é acessível para todos."  
 
 ---
