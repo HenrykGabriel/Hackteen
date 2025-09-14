@@ -9,25 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
 const teamMembers = [
     {
         id: 1,
-        name: "Ana Silva",
+        name: "Davi Camargo Campos",
         role: "Frontend Developer & UX/UI Designer",
-        description: "Especialista em design inclusivo e interfaces acessíveis",
+        description: "Especialista em design inclusivo, interfaces acessíveis e desenvolvimento web responsivo.",
         image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
-        skills: ["React", "Design System", "Acessibilidade", "UX Research"]
+        skills: ["HTML5", "CSS3", "Acessibilidade", "UX Research"]
     },
     {
         id: 2,
-        name: "Carlos Santos",
+        name: "David Fernando Ferreira Moura",
         role: "Backend Developer & Accessibility Expert",
-        description: "Desenvolvedor full-stack focado em tecnologias assistivas",
+        description: "Desenvolvedor full-stack focado em tecnologias assistivas e acessibilidade digital.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-        skills: ["Node.js", "WCAG", "Screen Readers", "API Design"]
+        skills: ["JavaScript", "WCAG", "Screen Readers", "API Design"]
     },
     {
         id: 3,
-        name: "Maria Oliveira",
+        name: "Henryk Gabriel Lara Fabiano",
         role: "QA Engineer & Accessibility Tester",
-        description: "Especialista em testes de acessibilidade e validação WCAG",
+        description: "Especialista em testes de acessibilidade, validação WCAG e automação de qualidade.",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
         skills: ["Testing", "WCAG Validation", "Automation", "User Research"]
     }
