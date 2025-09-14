@@ -67,9 +67,6 @@ AccessCode/
 - **Submissões de Contato**: Backup local dos formulários enviados
 - **Estatísticas de Uso**: Analytics básicas da aplicação
 
-### 🌐 Multilíngua
-- Suporte para Português, Inglês e Espanhol
-- Preferência salva no localStorage
 
 ## 📖 Guias de Acessibilidade Incluídos
 
@@ -153,33 +150,6 @@ O projeto inclui um sistema básico de analytics que salva no localStorage:
 - **Submissões de Contato**: Backup completo dos formulários
 - **Preferências**: Configurações de acessibilidade
 
-### Acesso aos Dados (Console do Navegador)
-```javascript
-// Ver estatísticas gerais
-console.log(JSON.parse(localStorage.getItem('accessCodeData')));
-
-// Ver submissões de contato
-console.log(JSON.parse(localStorage.getItem('contactSubmissions')));
-
-// Exportar dados de contato
-ContactAdmin.exportContactData();
-
-// Ver estatísticas de contato
-ContactAdmin.getContactStatistics();
-```
-
-## 🎨 Paleta de Cores
-
-```css
---primary-color: #2563eb      /* Azul principal */
---primary-dark: #1d4ed8       /* Azul escuro */
---secondary-color: #10b981    /* Verde secundário */
---accent-color: #f59e0b       /* Amarelo de destaque */
---text-primary: #111827       /* Texto principal */
---text-secondary: #6b7280     /* Texto secundário */
---background: #ffffff         /* Fundo principal */
---background-light: #f9fafb   /* Fundo claro */
-```
 
 ## 🌍 Impacto Social
 
