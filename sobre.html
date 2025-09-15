@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - AccessCode</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" aria-label="AccessCode - Página Inicial">
+                        <div class="logo-icon">
+                            <span class="code-icon">{ }</span>
+                            <span class="accessibility-icon">♿</span>
+                        </div>
+                        <span class="logo-text">AccessCode</span>
+                    </a>
+                </div>
+                <nav class="main-nav" role="navigation" aria-label="Navegação principal">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Início</a></li>
+                        <li><a href="sobre.html" class="nav-link active">Sobre</a></li>
+                        <li><a href="recursos.html" class="nav-link">Recursos</a></li>
+                        <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="header-controls">
+                    <div class="language-selector">
+                        <label for="language-select" class="sr-only">Selecionar idioma</label>
+                        <select id="language-select" class="language-select">
+                            <option value="pt">🇧🇷 Português</option>
+                            <option value="en">🇺🇸 English</option>
+                            <option value="es">🇪🇸 Español</option>
+                        </select>
+                    </div>
+                    <button class="mobile-menu-btn" aria-label="Menu mobile" aria-expanded="false">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main id="main-content" class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="about-title">
+            <div class="container">
+                <div class="text-center mb-16">
+                    <span class="badge">Sobre Nós</span>
+                    <h1 id="about-title" class="hero-title">
+                        Nossa Missão: Um Web para Todos
+                    </h1>
+                    <p class="hero-description">
+                        Somos uma equipe de desenvolvedores apaixonados por criar um mundo digital mais inclusivo e acessível para todas as pessoas.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Mission, Vision, Values -->
+        <section class="mvv-section" aria-labelledby="mvv-title">
+            <div class="container">
+                <h2 id="mvv-title" class="sr-only">Missão, Visão e Valores</h2>
+                <div class="mvv-grid">
+                    <div class="mvv-card text-center">
+                        <div class="mvv-icon" aria-label="Missão">🎯</div>
+                        <h3 class="mvv-title">Missão</h3>
+                        <p class="mvv-description">
+                            Capacitar desenvolvedores com conhecimento e ferramentas para criar aplicações web verdadeiramente acessíveis e inclusivas.
+                        </p>
+                    </div>
+                    <div class="mvv-card text-center">
+                        <div class="mvv-icon" aria-label="Visão">👁️</div>
+                        <h3 class="mvv-title">Visão</h3>
+                        <p class="mvv-description">
+                            Um futuro onde todas as experiências digitais são projetadas pensando desde o início na diversidade de usuários e suas necessidades.
+                        </p>
+                    </div>
+                    <div class="mvv-card text-center">
+                        <div class="mvv-icon" aria-label="Valores">❤️</div>
+                        <h3 class="mvv-title">Valores</h3>
+                        <p class="mvv-description">
+                            Inclusão, empatia, inovação e responsabilidade social são os pilares que guiam cada decisão em nosso trabalho.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Story Section -->
+        <section class="story-section" aria-labelledby="story-title">
+            <div class="container">
+                <div class="story-content">
+                    <h2 id="story-title" class="section-title">Nossa História</h2>
+                    <div class="story-text">
+                        <p>
+                            AccessCode nasceu durante a Hackteen 2024, quando nossa equipe se deparou com uma estatística chocante: mais de 98% dos sites na web apresentam barreiras de acessibilidade que impedem milhões de pessoas de usar plenamente a internet.
+                        </p>
+                        <p>
+                            Como desenvolvedores, percebemos que não era falta de vontade, mas sim falta de conhecimento e ferramentas adequadas que mantinham essa situação. Decidimos então criar uma plataforma que não apenas ensinasse os conceitos de acessibilidade, mas que também oferecesse experiências práticas e interativas para desenvolvedores aprenderem na prática.
+                        </p>
+                        <p>
+                            Alinhados com o ODS 10 (Redução das Desigualdades), acreditamos que a tecnologia deve ser uma ponte, não uma barreira. Cada linha de código que escrevemos pode incluir ou excluir pessoas - e essa escolha está em nossas mãos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section class="team-section" aria-labelledby="team-title">
+            <div class="container">
+                <div class="section-header text-center mb-12">
+                    <h2 id="team-title" class="section-title">Conheça Nossa Equipe</h2>
+                    <p class="section-description">
+                        Profissionais dedicados que combinam expertise técnica com paixão por inclusão
+                    </p>
+                </div>
+                <div class="team-grid" id="team-grid">
+                    <!-- Team members will be carregados por JS -->
+                </div>
+            </div>
+        </section>
+        <!-- Impact Section -->
+        <section class="impact-section" aria-labelledby="impact-title">
+            <div class="container">
+                <div class="impact-content">
+                    <div class="section-header text-center mb-8">
+                        <h2 id="impact-title" class="section-title">Nosso Impacto</h2>
+                        <p class="section-description">
+                            Resultados concretos da nossa missão de tornar a web mais acessível
+                        </p>
+                    </div>
+                    <div class="impact-grid">
+                        <div class="impact-card text-center">
+                            <div class="impact-icon" aria-label="Desenvolvedores Capacitados">👥</div>
+                            <div class="impact-number">1,000+</div>
+                            <div class="impact-label">Desenvolvedores Capacitados</div>
+                        </div>
+                        <div class="impact-card text-center">
+                            <div class="impact-icon" aria-label="Empresas Impactadas">🎯</div>
+                            <div class="impact-number">50+</div>
+                            <div class="impact-label">Empresas Impactadas</div>
+                        </div>
+                        <div class="impact-card text-center">
+                            <div class="impact-icon" aria-label="Guias Criados">👁️</div>
+                            <div class="impact-number">15+</div>
+                            <div class="impact-label">Guias Criados</div>
+                        </div>
+                        <div class="impact-card text-center">
+                            <div class="impact-icon" aria-label="Taxa de Satisfação">❤️</div>
+                            <div class="impact-number">98%</div>
+                            <div class="impact-label">Taxa de Satisfação</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">AccessCode</h3>
+                    <p class="footer-description">
+                        Programando para todos. Construindo uma web mais inclusiva e acessível.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <span class="social-icon">💻</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Email">
+                            <span class="social-icon">✉️</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="recursos.html">Recursos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Recursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="recursos.html#guias">Guias de Acessibilidade</a></li>
+                        <li><a href="recursos.html#simuladores">Simuladores</a></li>
+                        <li><a href="recursos.html#exemplos">Exemplos de Código</a></li>
+                        <li><a href="#" rel="external">WCAG Guidelines</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contato</h4>
+                    <div class="contact-info">
+                        <p>Email: contato@accesscode.dev</p>
+                        <p>Hackteen 2024</p>
+                        <p>Categoria: Startup Explorer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 AccessCode. Todos os direitos reservados.</p>
+                <p class="made-with-love">Feito com ❤️ para um mundo mais acessível</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/sobre.js"></script>
+</body>
+</html>
