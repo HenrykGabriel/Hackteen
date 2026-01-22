@@ -9,27 +9,27 @@ document.addEventListener('DOMContentLoaded', function() {
 const teamMembers = [
     {
         id: 1,
-        name: "Ana Silva",
-        role: "Frontend Developer & UX/UI Designer",
-        description: "Especialista em design inclusivo e interfaces acessíveis",
-        image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
-        skills: ["React", "Design System", "Acessibilidade", "UX Research"]
+        name: "Davi Camargo Campos",
+        role: "Desenvolvedor iniciante",
+        description: "Cuidando da parte do desenvolvimento front-end e do design.",
+        image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&h=300&fit=crop&crop=face",
+        skills: ["HTML", "CSS", "design"]
     },
     {
         id: 2,
-        name: "Carlos Santos",
-        role: "Backend Developer & Accessibility Expert",
-        description: "Desenvolvedor full-stack focado em tecnologias assistivas",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-        skills: ["Node.js", "WCAG", "Screen Readers", "API Design"]
+        name: "David Fernando Ferreira Moura",
+        role: "Desenvolvedor iniciante",
+        description: "Focado em pesquisas sobre acessibilidade e ajudando no desenvolvimento.",
+        image: "images/david.jpg",
+        skills: ["HTML", "CSS", "Acessibilidade"]
     },
     {
         id: 3,
-        name: "Maria Oliveira",
-        role: "QA Engineer & Accessibility Tester",
-        description: "Especialista em testes de acessibilidade e validação WCAG",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
-        skills: ["Testing", "WCAG Validation", "Automation", "User Research"]
+        name: "Henryk Gabriel Lara Fabiano",
+        role: "Desenvolvedor iniciante",
+        description: "Auxiliando na parte do desenvolvimento e na organização do projeto.",
+        image: "images/henryk.jpg",
+        skills: ["HTML", "CSS", "Organização"]
     }
 ];
 
@@ -54,20 +54,6 @@ function loadTeamMembers() {
                 <p class="team-description">${member.description}</p>
                 <div class="team-skills">
                     ${member.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
-                </div>
-                <button class="team-more-btn" aria-expanded="false" aria-controls="member-details-${member.id}">
-                    Ver mais
-                    <span class="btn-icon">↓</span>
-                </button>
-                <div class="team-details" id="member-details-${member.id}" aria-hidden="true">
-                    <div class="team-achievements">
-                        <h4>Contribuições</h4>
-                        <ul>
-                            <li>Desenvolveu ${Math.floor(Math.random() * 10) + 5} guias de acessibilidade</li>
-                            <li>Treinou ${Math.floor(Math.random() * 100) + 50} desenvolvedores</li>
-                            <li>Certificação WCAG ${Math.random() > 0.5 ? 'AA' : 'AAA'}</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
